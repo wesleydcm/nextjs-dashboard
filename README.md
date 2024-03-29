@@ -1,6 +1,6 @@
 ## Next.js Acme App
 
-Dashboard application.
+This is a fully functional demo site that uses all the latest Next.js features.
 
 ## Features
 
@@ -10,5 +10,7 @@ Dashboard application.
 - To save resources, the `Debounced` technique was added to the search bar, just 300ms after the user stops typing the query is performed.
 
 ### Pagination
+
+---
 
 For more information, see the [course curriculum](https://nextjs.org/learn) on the Next.js Website.
