@@ -3,8 +3,8 @@
 This is a fully functional demo site that uses all the latest Next.js features.
 
 Among the technologies used to develop the website we have:
-Next.js - TypeScript - TailwindCSS - PostgreSQL - clx
-heroicons - bcrypt - use-debounce - zod and others;
+
+Next.js - TypeScript - TailwindCSS - PostgreSQL - clx - heroicons - bcrypt - use-debounce - zod and others;
 
 ## Features
 
@@ -15,7 +15,16 @@ heroicons - bcrypt - use-debounce - zod and others;
 
 ### Pagination
 
+- Search and pagination using URL search parameters: `searchParams`, `usePathname` and `useRouter`.
+
 ### CRUD Invoices
+
+- Revalidate client cache using `revalidatePath` API after database change.
+
+### Error Handling
+
+- Detect errors in your route segments and show a replacement UI to the user.
+- notFound function and file not found to handle 404 errors (for resources that don't exist).
 
 ---
 
