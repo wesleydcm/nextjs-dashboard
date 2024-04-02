@@ -2,6 +2,10 @@
 
 This is a fully functional demo site that uses all the latest Next.js features.
 
+Among the technologies used to develop the website we have:
+Next.js - TypeScript - TailwindCSS - PostgreSQL - clx
+heroicons - bcrypt - use-debounce - zod and others;
+
 ## Features
 
 ### Search box
@@ -10,6 +14,8 @@ This is a fully functional demo site that uses all the latest Next.js features.
 - To save resources, the `Debounced` technique was added to the search bar, just 300ms after the user stops typing the query is performed.
 
 ### Pagination
+
+### CRUD Invoices
 
 ---
 
