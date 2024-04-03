@@ -24,7 +24,13 @@ Next.js - TypeScript - TailwindCSS - PostgreSQL - clx - heroicons - bcrypt - use
 ### Error Handling
 
 - Detect errors in your route segments and show a replacement UI to the user.
-- notFound function and file not found to handle 404 errors (for resources that don't exist).
+- `notFound` function and file not found to handle 404 errors (for resources that don't exist).
+
+### Accessibility
+
+- `eslint-plugin-jsx-a11y` with Next.js to implement accessibility best practices.
+- Server-side form validation.
+- Use of the React `useFormState` hook to handle form errors, and display them to the user.
 
 ---
 
