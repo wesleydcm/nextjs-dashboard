@@ -6,6 +6,13 @@ Among the technologies used to develop the website we have:
 
 Next.js - TypeScript - TailwindCSS - PostgreSQL - clx - heroicons - bcrypt - use-debounce - zod and others;
 
+#### To access the application dashboard, use the following credentials:
+
+```
+    Email: user@nextmail.com
+    Password: 123456
+```
+
 ## Features
 
 ### Search box
@@ -31,6 +38,12 @@ Next.js - TypeScript - TailwindCSS - PostgreSQL - clx - heroicons - bcrypt - use
 - `eslint-plugin-jsx-a11y` with Next.js to implement accessibility best practices.
 - Server-side form validation.
 - Use of the React `useFormState` hook to handle form errors, and display them to the user.
+
+### Authentication
+
+- Authentication to app using NextAuth.js.
+- Use of Middleware to redirect users and protect their routes.
+- Use of React's `useFormStatus` and `useFormState` to handle pending states and form errors.
 
 ---
 
