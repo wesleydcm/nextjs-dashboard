@@ -13,6 +13,8 @@ Next.js - TypeScript - TailwindCSS - PostgreSQL - clx - heroicons - bcrypt - use
     Password: 123456
 ```
 
+> [Open Acme App](https://nextjs-dashboard-six-roan-85.vercel.app/dashboard)
+
 ## Features
 
 ### Search box
@@ -44,6 +46,10 @@ Next.js - TypeScript - TailwindCSS - PostgreSQL - clx - heroicons - bcrypt - use
 - Authentication to app using NextAuth.js.
 - Use of Middleware to redirect users and protect their routes.
 - Use of React's `useFormStatus` and `useFormState` to handle pending states and form errors.
+
+### Metadata
+
+- Use of metadata to enhance web page indexing, using Open Graph Metadata, Description, Keywords and others.
 
 ---
 
